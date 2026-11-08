@@ -71,7 +71,7 @@ class FrontPageTest(TempDir):
         self.assertTrue(any("skill badge" in f for f in self.findings()))
 
     def test_stale_model_badge_fails(self):
-        self.edit("badge/model-any%20video%20model-", "badge/model-one%20video%20model-")
+        self.edit("badge/model-Seedance%202.5-", "badge/model-Seedance%202.4-")
         self.assertTrue(any("model badge" in f for f in self.findings()))
 
     def test_missing_picture_fails(self):

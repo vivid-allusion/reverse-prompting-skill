@@ -37,7 +37,7 @@ It needs Node and npm and a machine that is online. Nothing else is needed: the 
 | **Stills to scenes** | A shots table (shot, scene, still, old motion line) turned into `MAP/SCENES/Scene_NNN/SCENE.md` and `SHOT_NNN.md` by `scaffold.py`. A scene is one continuous place and time, of one shot or many. |
 | **Reading a still** | A literal inventory, what is out of frame by its effect, and the hero of the shot. The still is a storyboard, not a look. |
 | **Elements** | Only the hero and what a prominent character handles, wears or rides get an asset. Every element under `02_PRE-PRODUCTION/<category>/Scene_NNN/@NAME/`; a recurring one also under `_CANON/@NAME/`. |
-| **Asset prompts** | One folder per model: plates in Seedream and GPT Image, props and vehicles in Seedream, extras in GPT Image with the still as costume reference, video prompts in `PROMPTS/VIDEO/` whatever the video model. Sheets in overcast daylight on grey concrete. |
+| **Asset prompts** | One folder per model: plates in Seedream and GPT Image, props and vehicles in Seedream, extras in GPT Image with the still as costume reference, video prompts in `PROMPTS/VIDEO/`, written for Seedance 2.5. Sheets in overcast daylight on grey concrete. |
 | **Coverage** | `coverage.py` rebuilds `MAP/COVERAGE.md`: every hero element with its prompt file or a stated reason, the missing ones first. |
 | **Picks and video** | Picks get public addresses and go into the slots; video prompts rebuild each scene from them. |
 
