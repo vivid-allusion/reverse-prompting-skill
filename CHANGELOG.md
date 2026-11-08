@@ -1,5 +1,8 @@
 # Changelog
 
+## 2026-11-08 (0.1.1)
+- The skill's video prompts are written for Seedance 2.5 again; only the folder name is model-free.
+
 Changes to this repo. The skill's own releases are recorded in [`skills/reverse-prompting/CHANGELOG.md`](skills/reverse-prompting/CHANGELOG.md) and are not repeated here.
 
 ## 2026-11-08

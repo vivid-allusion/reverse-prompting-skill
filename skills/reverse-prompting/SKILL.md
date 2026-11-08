@@ -4,8 +4,8 @@ description: "Load before turning a film's animatic stills into the assets a vid
 type: workflow
 lifecycle: active
 metadata:
-  version: "0.1.0"
-  written-for: "any video model"
+  version: "0.1.1"
+  written-for: "Seedance 2.5"
 ---
 
 # Reverse prompting: from animatic stills to scenes you can build

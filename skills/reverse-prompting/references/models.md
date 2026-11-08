@@ -15,7 +15,7 @@ The default, learned on a real project. A project's own skill or brief overrides
 | Props, vehicles | **Seedream 5.0** | Fast, cheap, near GPT Image on objects: [[props-vehicles]] |
 | Extras, group and single | **GPT Image** with the still as costume reference | [[extras]] |
 | Small roles | **GPT Image** with the still as costume reference | [[characters]] |
-| Video | The project's video model, for example **Seedance 2.5** | [[video-prompts]] |
+| Video | **Seedance 2.5** (the folder is `VIDEO/`, so a newer model slots in without renaming) | [[video-prompts]] |
 
 ## What went badly
 

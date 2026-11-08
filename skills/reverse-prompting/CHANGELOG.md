@@ -1,5 +1,8 @@
 # Changelog
 
+## 2026-11-08 (0.1.1)
+- Video prompts are written for Seedance 2.5 (reference slots, @Image numbering, duration); the folder stays `PROMPTS/VIDEO/`.
+
 ## 2026-11-08 (0.1.0)
 - First version. Reverse prompting: a film tested as one still per shot, then each still taken apart into the assets a video model needs, filed scene first, made per model, counted in a coverage table, picked, and rebuilt as video scene by scene.
 - `SKILL.md` carries the run and the rules; one-topic pages cover the method, inputs, scenes, folders, canon and state, reading a still, the hero rule, elements, plates, characters, extras, props and vehicles, model routing, prompt files, coverage, picks, video prompts, decisions, the scripts, a glossary and the evidence.

@@ -1,9 +1,9 @@
 # Reverse Prompting Skill.md
 
 <p align="center">
-  <img src="https://img.shields.io/badge/skill-0.1.0-24292f?style=flat" alt="Skill version 0.1.0" />
+  <img src="https://img.shields.io/badge/skill-0.1.1-24292f?style=flat" alt="Skill version 0.1.1" />
   &nbsp;
-  <img src="https://img.shields.io/badge/model-any%20video%20model-24292f?style=flat" alt="Written for any video model" />
+  <img src="https://img.shields.io/badge/model-Seedance%202.5-24292f?style=flat" alt="Written for Seedance 2.5" />
   &nbsp;
   <img src="https://img.shields.io/badge/format-Agent%20Skill-24292f?style=flat" alt="Agent Skill format" />
   &nbsp;
@@ -47,7 +47,8 @@ It points to the skills it works beside rather than repeating them: `cinematic-r
 
 | Skill | Written for | Notes |
 |---|---|---|
-| 0.1.0 | any video model | Current. First version. Evals written, not yet graded in real-model sessions. |
+| 0.1.1 | Seedance 2.5 | Current. Video prompts are written for Seedance 2.5; the folder stays `VIDEO/`. |
+| 0.1.0 | Seedance 2.5 | First version. Evals written, not yet graded in real-model sessions. |
 
 ## Layout
 
