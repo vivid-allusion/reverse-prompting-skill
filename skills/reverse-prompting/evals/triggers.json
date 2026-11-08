@@ -1,0 +1,50 @@
+{
+  "skill": "reverse-prompting",
+  "note": "Phrases a person types at a cold session. The false cases matter more: this skill must not fire on a single sheet, a script with no stills, or a general prompt question.",
+  "triggers": [
+    {
+      "phrase": "I have a still for every shot of my short; break them into assets I can feed the video model.",
+      "should_trigger": true
+    },
+    {
+      "phrase": "Reverse prompt these animatic frames into characters, props and plates.",
+      "should_trigger": true
+    },
+    {
+      "phrase": "Set up the scene folders from this shots table.",
+      "should_trigger": true
+    },
+    {
+      "phrase": "Which assets does scene 4 still need before I generate video?",
+      "should_trigger": true
+    },
+    {
+      "phrase": "Rebuild the coverage table for the stills breakdown.",
+      "should_trigger": true
+    },
+    {
+      "phrase": "Shots 12 to 14 are one scene; how many plates do I need?",
+      "should_trigger": true
+    },
+    {
+      "phrase": "Write a character sheet prompt for this one woman.",
+      "should_trigger": false
+    },
+    {
+      "phrase": "Break my screenplay into cast and props folders.",
+      "should_trigger": false
+    },
+    {
+      "phrase": "Why does my close-up keep showing the fire that should be off frame?",
+      "should_trigger": false
+    },
+    {
+      "phrase": "Generate the harbour plate now.",
+      "should_trigger": false
+    },
+    {
+      "phrase": "Rewrite the dialogue in scene 3.",
+      "should_trigger": false
+    }
+  ]
+}

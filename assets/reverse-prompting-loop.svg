@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 220" role="img" aria-label="Reverse prompting: stills, scenes, elements, asset prompts, picks, video">
+  <style>
+    .box{fill:#f6f8fa;stroke:#24292f;stroke-width:1.5}
+    .t{font:600 15px sans-serif;fill:#24292f}
+    .s{font:12px sans-serif;fill:#57606a}
+    .a{stroke:#24292f;stroke-width:1.5;fill:none;marker-end:url(#h)}
+  </style>
+  <defs><marker id="h" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0L10,5L0,10z" fill="#24292f"/></marker></defs>
+  <rect class="box" x="10" y="60" width="130" height="90" rx="8"/><text class="t" x="24" y="95">Stills</text><text class="s" x="24" y="117">one per shot,</text><text class="s" x="24" y="133">cheap, public</text>
+  <rect class="box" x="170" y="60" width="130" height="90" rx="8"/><text class="t" x="184" y="95">Scenes</text><text class="s" x="184" y="117">Scene_NNN,</text><text class="s" x="184" y="133">one or many shots</text>
+  <rect class="box" x="330" y="60" width="130" height="90" rx="8"/><text class="t" x="344" y="95">Elements</text><text class="s" x="344" y="117">hero only,</text><text class="s" x="344" y="133">canon + state</text>
+  <rect class="box" x="490" y="60" width="130" height="90" rx="8"/><text class="t" x="504" y="95">Asset prompts</text><text class="s" x="504" y="117">one folder</text><text class="s" x="504" y="133">per model</text>
+  <rect class="box" x="650" y="60" width="130" height="90" rx="8"/><text class="t" x="664" y="95">Picks</text><text class="s" x="664" y="117">generated,</text><text class="s" x="664" y="133">chosen, synced</text>
+  <rect class="box" x="810" y="60" width="140" height="90" rx="8"/><text class="t" x="824" y="95">Video</text><text class="s" x="824" y="117">scene by scene,</text><text class="s" x="824" y="133">from the assets</text>
+  <path class="a" d="M140,105H168"/><path class="a" d="M300,105H328"/><path class="a" d="M460,105H488"/><path class="a" d="M620,105H648"/><path class="a" d="M780,105H808"/>
+  <path class="a" d="M555,150V190H395V152"/><text class="s" x="410" y="207">COVERAGE.md: every hero element, gaps first</text>
+  <text class="s" x="10" y="35">Reverse prompting: test the film as stills, then rebuild each scene from locked assets.</text>
+</svg>

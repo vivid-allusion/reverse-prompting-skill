@@ -1,0 +1,6 @@
+shot,scene,still,motion,scene_title,elements
+1,1,https://example.com/the-last-ferry/stills/shot_001.png,The camera slowly pushes in on the ferry as workers load crates.,EXT. HARBOUR - DAWN,@HARBOUR:ENVIRONMENTS;@LAST_FERRY:VEHICLES;@HARBOUR_WORKERS:EXTRAS;@ROPE:PROPS:background
+2,2,https://example.com/the-last-ferry/stills/shot_002.png,Slow dolly in on Marta and Tomás on the bench.,INT. FERRY CABIN - DAY,@MARTA:CAST;@TOMAS:CAST;@COAT_MARTA:COSTUMES;@FERRY_CABIN:ENVIRONMENTS;@TIN_BOX:PROPS
+3,2,https://example.com/the-last-ferry/stills/shot_003.png,Close push-in on her hands opening the tin box.,INT. FERRY CABIN - DAY,@MARTA:CAST;@TIN_BOX:PROPS;@FERRY_CABIN:ENVIRONMENTS:background
+4,2,https://example.com/the-last-ferry/stills/shot_004.png,Slow push-in on the boy's face.,INT. FERRY CABIN - DAY,@TOMAS:CAST;@FERRY_CABIN:ENVIRONMENTS:background
+5,3,https://example.com/the-last-ferry/stills/shot_005.png,The camera slowly pushes in on the woman at the end of the jetty.,EXT. ISLAND JETTY - DUSK,@MARTA:CAST;@COAT_MARTA:COSTUMES;@TIN_BOX:PROPS;@ISLAND_JETTY:ENVIRONMENTS

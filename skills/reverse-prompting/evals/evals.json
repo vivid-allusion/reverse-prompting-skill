@@ -1,0 +1,265 @@
+{
+  "skill": "reverse-prompting",
+  "note": "Task cases. 'says' with text must be in the grounded page; cross-module cases name evidence the gate or tools/check_evidence.py checks.",
+  "cases": [
+    {
+      "id": "start-from-stills",
+      "prompt": "I have 40 stills, one per shot, with their old motion lines in a spreadsheet. Where do I start?",
+      "assertions": [
+        {
+          "kind": "says",
+          "text": "scaffold.py",
+          "grounded_in": "SKILL.md"
+        },
+        {
+          "kind": "says",
+          "what": "a shots table with shot, scene, still and motion columns, the stills at public addresses"
+        },
+        {
+          "kind": "says",
+          "what": "scenes are cut by continuous place and time, numbered Scene_NNN"
+        },
+        {
+          "kind": "not_says",
+          "what": "to generate anything"
+        }
+      ],
+      "cross_module": true,
+      "evidence": [
+        {
+          "tree": "repo",
+          "path": "skills/reverse-prompting/scripts/rp_lib.py",
+          "needle": "for need in (\"shot\", \"scene\", \"still\")"
+        },
+        {
+          "tree": "repo",
+          "path": "skills/reverse-prompting/scripts/scaffold.py",
+          "needle": "MAP/SCENES/%s/%s.md"
+        }
+      ]
+    },
+    {
+      "id": "multi-shot-scene-plates",
+      "prompt": "Shots 2, 3 and 4 are all in the ferry cabin, in one continuous moment. Shot 3 is an insert of her hands and 4 is a close-up of the boy. How many cabin plates?",
+      "assertions": [
+        {
+          "kind": "says",
+          "what": "one plate for the scene's one camera side"
+        },
+        {
+          "kind": "says",
+          "text": "Close-up: background is blur",
+          "grounded_in": "references/environments.md"
+        },
+        {
+          "kind": "says",
+          "what": "the plate sits under Scene_002, in both the Seedream and GPT Image folders"
+        },
+        {
+          "kind": "not_says",
+          "what": "one plate per still"
+        }
+      ],
+      "cross_module": true,
+      "evidence": [
+        {
+          "tree": "repo",
+          "path": "examples/the-last-ferry/MAP/SCENES/Scene_002/SCENE.md",
+          "needle": "One plate, side A"
+        },
+        {
+          "tree": "repo",
+          "path": "examples/the-last-ferry/PROMPTS/SEEDREAM-5.0/03_ENVIRONMENTS/Scene_002/@FERRY_CABIN.md",
+          "needle": "Nobody in it"
+        }
+      ]
+    },
+    {
+      "id": "recurring-character",
+      "prompt": "Marta is in scenes 2 and 3 in the same coat. Where do her files go?",
+      "assertions": [
+        {
+          "kind": "says",
+          "text": "_CANON",
+          "grounded_in": "references/canon-and-state.md"
+        },
+        {
+          "kind": "says",
+          "what": "a scene folder per scene holding only that scene's state, pointing at the canon"
+        },
+        {
+          "kind": "says",
+          "what": "no scene prompt when nothing differs from the canon"
+        }
+      ],
+      "cross_module": true,
+      "evidence": [
+        {
+          "tree": "repo",
+          "path": "skills/reverse-prompting/scripts/scaffold.py",
+          "needle": "canon = len(by_scene) > 1"
+        },
+        {
+          "tree": "repo",
+          "path": "examples/the-last-ferry/02_PRE-PRODUCTION/01_CAST/Scene_002/@MARTA/@MARTA_ABOUT.md",
+          "needle": "No change from the canon"
+        }
+      ]
+    },
+    {
+      "id": "hero-not-dressing",
+      "prompt": "The baker is kneading dough; behind him there's a candlestick, bowls and a lantern. Which props get prompts?",
+      "assertions": [
+        {
+          "kind": "says",
+          "what": "the dough, because he handles it; the baker himself"
+        },
+        {
+          "kind": "says",
+          "what": "the candlestick, bowls and lantern are background, listed but not made"
+        },
+        {
+          "kind": "not_says",
+          "what": "a prompt for the candlestick"
+        }
+      ],
+      "cross_module": false
+    },
+    {
+      "id": "extras-per-scene",
+      "prompt": "Dock workers appear in shots 1 and 10, which are different scenes. One extras sheet?",
+      "assertions": [
+        {
+          "kind": "says",
+          "what": "no: one sheet per scene, only the people seen together in it"
+        },
+        {
+          "kind": "says",
+          "what": "each person carries the nationality of the scene's country"
+        },
+        {
+          "kind": "says",
+          "what": "GPT Image with the scene's still as costume reference; not Seedream"
+        }
+      ],
+      "cross_module": true,
+      "evidence": [
+        {
+          "tree": "repo",
+          "path": "examples/the-last-ferry/PROMPTS/GPT-IMAGE-2.5/05_EXTRAS/Scene_001/@HARBOUR_WORKERS.md",
+          "needle": "ONE OLD PORTUGUESE MAN"
+        },
+        {
+          "tree": "prompt-craft-extras-sheet",
+          "path": "skills/prompt-craft-extras-sheet/SKILL.md",
+          "needle": "Every person carries the nationality of the scene's country"
+        }
+      ]
+    },
+    {
+      "id": "video-folder",
+      "prompt": "Scene 2 has three shots. Where does its video prompt go and what is it called?",
+      "assertions": [
+        {
+          "kind": "says",
+          "what": "one generation for the scene beat, its shots with hard cuts and the scene's locks at the top"
+        },
+        {
+          "kind": "says",
+          "text": "VIDEO/Scene_NNN/SHOTS_NNN-NNN.md",
+          "grounded_in": "references/folders.md"
+        },
+        {
+          "kind": "says",
+          "what": "coverage.py links that file to every shot in its range"
+        }
+      ],
+      "cross_module": false,
+      "evidence": [
+        {
+          "tree": "repo",
+          "path": "skills/reverse-prompting/scripts/coverage.py",
+          "needle": "Video prompts are PROMPTS/VIDEO/Scene_NNN/SHOT_NNN.md or SHOTS_NNN-NNN.md."
+        }
+      ]
+    },
+    {
+      "id": "notes-in-prompts",
+      "prompt": "Can I keep the shot notes next to the prompt files so I see both?",
+      "assertions": [
+        {
+          "kind": "says",
+          "what": "no: every .md in a generator's input folder is a job; notes live in MAP/"
+        },
+        {
+          "kind": "says",
+          "text": "helmer-md",
+          "grounded_in": "references/prompt-files.md"
+        }
+      ],
+      "cross_module": true,
+      "evidence": [
+        {
+          "tree": "helmer-md",
+          "path": "skills/helmer-md/SKILL.md",
+          "needle": "Every `.md` in a generator's input folder, subfolders included, is a job."
+        },
+        {
+          "tree": "repo",
+          "path": "skills/reverse-prompting/scripts/check_prompts.py",
+          "needle": "a note under PROMPTS/"
+        }
+      ]
+    },
+    {
+      "id": "report-gaps-first",
+      "prompt": "I just wrote props for scenes 1 to 5. What now?",
+      "assertions": [
+        {
+          "kind": "ran",
+          "what": "scripts/check_prompts.py and scripts/coverage.py, or says to run them"
+        },
+        {
+          "kind": "says",
+          "what": "what is missing first, then what was decided, then the counts"
+        },
+        {
+          "kind": "not_says",
+          "what": "a list of open questions for every disagreement"
+        }
+      ],
+      "cross_module": true,
+      "evidence": [
+        {
+          "tree": "repo",
+          "path": "skills/reverse-prompting/scripts/coverage.py",
+          "needle": "\"## Missing\""
+        }
+      ]
+    },
+    {
+      "id": "model-routing",
+      "prompt": "Which model for the plates, the props and the extras?",
+      "assertions": [
+        {
+          "kind": "says",
+          "what": "plates in both Seedream and GPT Image, then pick"
+        },
+        {
+          "kind": "says",
+          "what": "props and vehicles in Seedream"
+        },
+        {
+          "kind": "says",
+          "what": "extras in GPT Image with the still as costume reference; not Seedream"
+        },
+        {
+          "kind": "says",
+          "text": "Soul did horribly on environments and props",
+          "grounded_in": "references/models.md"
+        }
+      ],
+      "cross_module": false
+    }
+  ]
+}
