@@ -8,7 +8,7 @@ links: [scenes, hero, characters, models]
 
 ## One sheet per scene
 
-An extras sheet is one group photograph of **the people seen together in one scene**, in costume, every face different. It is the identity reference for that scene's background people. The method for the sheet is the `prompt-craft-extras-sheet` skill.
+An extras sheet is one group photograph of **the people seen together in one scene**, in costume, every face different. It is the identity reference for that scene's background people. The method for the sheet is the `extras-character-sheet` skill.
 
 - **Only the people of that scene.** Never gather everyone of a kind (all dock workers, all patrons) from several scenes into one crew.
 - **One person alone** in a scene gets a single character sheet, not a group of one: [[characters]].

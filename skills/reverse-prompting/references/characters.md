@@ -8,7 +8,7 @@ links: [canon-and-state, extras, models, prompt-files]
 
 ## Leads
 
-A lead appears in many scenes: one canon sheet in `01_CAST/_CANON/@NAME/`, the truth for face and build. The method for the sheet is the `prompt-craft-character-sheet` skill.
+A lead appears in many scenes: one canon sheet in `01_CAST/_CANON/@NAME/`, the truth for face and build. The method for the sheet is the `cast-character-sheet` skill.
 
 - **A real actor:** the face comes only from their own photos or an approved sheet. The prompt attaches it as identity and never describes the face in words that could pull it away. An actor playing older or younger keeps their identity; age goes into the surface.
 - **A generated lead:** the face is made once, in close-up, and never regenerated; every sheet after it is built to it.
@@ -24,7 +24,7 @@ The character line names the nationality of where the character belongs, unless 
 
 ## Setting
 
-Character sheets are photographed in natural overcast outdoor light, on grey concrete ground in front of a grey concrete wall: the `prompt-craft-character-sheet` skill's block, pasted.
+Character sheets are photographed in natural overcast outdoor light, on grey concrete ground in front of a grey concrete wall: the `cast-character-sheet` skill's block, pasted.
 
 ## Which model
 

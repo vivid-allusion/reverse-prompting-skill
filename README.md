@@ -1,7 +1,7 @@
 # Reverse Prompting Skill.md
 
 <p align="center">
-  <img src="https://img.shields.io/badge/skill-0.1.1-24292f?style=flat" alt="Skill version 0.1.1" />
+  <img src="https://img.shields.io/badge/skill-0.1.2-24292f?style=flat" alt="Skill version 0.1.2" />
   &nbsp;
   <img src="https://img.shields.io/badge/model-Seedance%202.5-24292f?style=flat" alt="Written for Seedance 2.5" />
   &nbsp;
@@ -41,13 +41,14 @@ It needs Node and npm and a machine that is online. Nothing else is needed: the 
 | **Coverage** | `coverage.py` rebuilds `MAP/COVERAGE.md`: every hero element with its prompt file or a stated reason, the missing ones first. |
 | **Picks and video** | Picks get public addresses and go into the slots; video prompts rebuild each scene from them. |
 
-It points to the skills it works beside rather than repeating them: `cinematic-realism` for the prompt method, `prompt-craft-character-sheet` and `prompt-craft-extras-sheet` for the sheets, `helmer-md` for prompt-file syntax and `helmer-story-breakdown` for categories and naming. All of them live in the `vivid-allusion` organisation on GitHub; `tools/check_names.py` and `tools/check_evidence.py` take the paths of their checkouts.
+It points to the skills it works beside rather than repeating them: `cinematic-realism` for the prompt method, `cast-character-sheet` and `extras-character-sheet` for the sheets, `helmer-md` for prompt-file syntax and `helmer-story-breakdown` for categories and naming. All of them live in the `vivid-allusion` organisation on GitHub; `tools/check_names.py` and `tools/check_evidence.py` take the paths of their checkouts.
 
 ## Versions
 
 | Skill | Written for | Notes |
 |---|---|---|
-| 0.1.1 | Seedance 2.5 | Current. Video prompts are written for Seedance 2.5; the folder stays `VIDEO/`. |
+| 0.1.2 | Seedance 2.5 | Current. The sheet skills are now `cast-character-sheet` and `extras-character-sheet`. |
+| 0.1.1 | Seedance 2.5 | Video prompts are written for Seedance 2.5; the folder stays `VIDEO/`. |
 | 0.1.0 | Seedance 2.5 | First version. Evals written, not yet graded in real-model sessions. |
 
 ## Layout
@@ -71,8 +72,8 @@ It points to the skills it works beside rather than repeating them: `cinematic-r
 ```bash
 python3 -B tools/validate.py
 python3 -B -m unittest discover -s tests
-python3 -B tools/check_names.py --tree ../helmer-story-breakdown-skill --tree ../helmer-md-skill --tree ../cinematic-realism-skill --tree ../prompt-craft-character-sheet-skill --tree ../prompt-craft-extras-sheet-skill
-python3 -B tools/check_evidence.py --tree helmer-md=../helmer-md-skill --tree cinematic-realism=../cinematic-realism-skill --tree prompt-craft-extras-sheet=../prompt-craft-extras-sheet-skill
+python3 -B tools/check_names.py --tree ../helmer-story-breakdown-skill --tree ../helmer-md-skill --tree ../cinematic-realism-skill --tree ../cast-character-sheet --tree ../extras-character-sheet
+python3 -B tools/check_evidence.py --tree helmer-md=../helmer-md-skill --tree cinematic-realism=../cinematic-realism-skill --tree extras-character-sheet=../extras-character-sheet
 ```
 
 A change to the skill is a line in `skills/reverse-prompting/CHANGELOG.md` and a new `metadata.version` in `SKILL.md`; the gate refuses a mismatch, and refuses a badge or a version row on this page that no longer matches the skill. When a script changes, rebuild the example with `coverage.py` and commit what it writes: the tests compare it.

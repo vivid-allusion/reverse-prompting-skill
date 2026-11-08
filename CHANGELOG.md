@@ -1,5 +1,8 @@
 # Changelog
 
+## 2026-11-08 (0.1.2)
+- The skill points at `cast-character-sheet` and `extras-character-sheet`, and its eval evidence names the new folder.
+
 ## 2026-11-08 (0.1.1)
 - The skill's video prompts are written for Seedance 2.5 again; only the folder name is model-free.
 

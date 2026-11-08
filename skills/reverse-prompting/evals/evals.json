@@ -150,8 +150,8 @@
           "needle": "ONE OLD PORTUGUESE MAN"
         },
         {
-          "tree": "prompt-craft-extras-sheet",
-          "path": "skills/prompt-craft-extras-sheet/SKILL.md",
+          "tree": "extras-character-sheet",
+          "path": "skills/extras-character-sheet/SKILL.md",
           "needle": "Every person carries the nationality of the scene's country"
         }
       ]

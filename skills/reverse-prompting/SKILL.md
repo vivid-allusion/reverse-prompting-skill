@@ -1,10 +1,10 @@
 ---
 name: "reverse-prompting"
-description: "Load before turning a film's animatic stills into the assets a video model needs: reverse prompting. Use when a person has a cheap generated still of every shot and wants each scene broken into cast, costumes, props, vehicles, extras, environments and misc under Scene_NNN folders, asset prompt files written per model, a coverage table so nothing drops, takes picked, and video prompts that rebuild each scene, one shot or many, in the project's video model. Also for: setting up the scene and shot map from a shots table, the hero of a shot, plates per scene and camera side, extras group sheets per scene, which model makes which asset, and rebuilding COVERAGE.md. NOT for writing a story or script, breaking a written script into folders with no stills (helmer-story-breakdown), the photoreal prompt method itself (cinematic-realism), one sheet alone (prompt-craft-character-sheet, prompt-craft-extras-sheet), or pressing Generate."
+description: "Load before turning a film's animatic stills into the assets a video model needs: reverse prompting. Use when a person has a cheap generated still of every shot and wants each scene broken into cast, costumes, props, vehicles, extras, environments and misc under Scene_NNN folders, asset prompt files written per model, a coverage table so nothing drops, takes picked, and video prompts that rebuild each scene, one shot or many, in the project's video model. Also for: setting up the scene and shot map from a shots table, the hero of a shot, plates per scene and camera side, extras group sheets per scene, which model makes which asset, and rebuilding COVERAGE.md. NOT for writing a story or script, breaking a written script into folders with no stills (helmer-story-breakdown), the photoreal prompt method itself (cinematic-realism), one sheet alone (cast-character-sheet, extras-character-sheet), or pressing Generate."
 type: workflow
 lifecycle: active
 metadata:
-  version: "0.1.1"
+  version: "0.1.2"
   written-for: "Seedance 2.5"
 ---
 
