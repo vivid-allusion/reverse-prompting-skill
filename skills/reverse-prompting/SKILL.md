@@ -4,7 +4,7 @@ description: "Load before turning a film's animatic stills into the assets a vid
 type: workflow
 lifecycle: active
 metadata:
-  version: "0.1.3"
+  version: "0.1.4"
   written-for: "Seedance 2.5"
 ---
 

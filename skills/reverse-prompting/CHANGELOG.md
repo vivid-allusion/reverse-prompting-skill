@@ -1,5 +1,8 @@
 # Changelog
 
+## 2026-11-10 (0.1.4)
+- A prop is held or used, not worn. The hero's car is a vehicle; street traffic is the plate.
+
 ## 2026-11-10 (0.1.3)
 - Prop, vehicle or environment: a vehicle only when it acts; what stays put, moored or parked, and the vehicle a scene plays on, is the plate. The crane example is corrected.
 

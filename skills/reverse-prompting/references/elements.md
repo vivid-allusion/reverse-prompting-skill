@@ -11,7 +11,7 @@ An element is anything that must be in front of the camera: a person, a garment,
 | Folder | One for each |
 |---|---|
 | `01_CAST` | Person with a face that must hold |
-| `02_PROPS` | Object a person holds, uses or wears, or one the story needs seen |
+| `02_PROPS` | Object a person holds or uses, or one the story needs seen (worn is costume) |
 | `03_ENVIRONMENTS` | Place as one plate shows it, with everything that stays put in it |
 | `04_COSTUMES` | Clothing worth keeping the same, garment first and wearer last |
 | `05_EXTRAS` | Background people, as the group of one scene |
@@ -22,9 +22,9 @@ An element is anything that must be in front of the camera: a person, a garment,
 
 Every object in a still could be a prop. Raising one out of the place is a judgment of significance, per scene; the full rule is `helmer-story-breakdown`'s `categories` page. In short:
 
-- **Held, used or worn, or the plot needs it seen: a prop.** A gun on the table nobody touches but the story turns on is a prop; the cards and open bottles beside it are the place.
+- **Held or used, or the plot needs it seen: a prop.** Worn is costume. A gun on the table nobody touches but the story turns on is a prop; the cards and open bottles beside it are the place.
 - **Worked on or walked on, and stays put: the place.** The axe is a prop, the chopping block under it is the plate. The same for a table, a vat, an oven, a gangplank.
-- **A vehicle only when it acts:** it drives or sails through the shot, carries someone in or out, fights, or the shot is about what it does.
+- **A vehicle only when it acts:** it drives or sails through the shot, carries someone in or out, fights, or the shot is about what it does. The car the hero drives is a vehicle; the cars in a street's traffic are the street's plate.
 - **On it or in it: the place.** The deck we stand on, the car we sit in.
 - **Moored, parked or static: the place.** Ships in a harbour and the crane on the quay are the harbour's plate.
 
