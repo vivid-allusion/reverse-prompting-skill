@@ -19,7 +19,7 @@
 |---|---|---|---|
 | @MARTA | 01_CAST | hero | |
 | @TIN_BOX | 02_PROPS | hero | |
-| @FERRY_CABIN | 03_ENVIRONMENTS | background | Close-up: background is blur |
+| @FERRY_CABIN | 03_ENVIRONMENTS | hero | Scene plate, side A |
 
 ## Notes
 
@@ -35,7 +35,9 @@
 ## Prompts
 
 - [`GPT-IMAGE-2.5/01_CAST/_CANON/@MARTA.md`](../../../PROMPTS/GPT-IMAGE-2.5/01_CAST/_CANON/@MARTA.md)
+- [`GPT-IMAGE-2.5/03_ENVIRONMENTS/Scene_002/@FERRY_CABIN.md`](../../../PROMPTS/GPT-IMAGE-2.5/03_ENVIRONMENTS/Scene_002/@FERRY_CABIN.md)
 - [`SEEDREAM-5.0/02_PROPS/_CANON/@TIN_BOX.md`](../../../PROMPTS/SEEDREAM-5.0/02_PROPS/_CANON/@TIN_BOX.md)
+- [`SEEDREAM-5.0/03_ENVIRONMENTS/Scene_002/@FERRY_CABIN.md`](../../../PROMPTS/SEEDREAM-5.0/03_ENVIRONMENTS/Scene_002/@FERRY_CABIN.md)
 - [`VIDEO/Scene_002/SHOTS_002-004.md`](../../../PROMPTS/VIDEO/Scene_002/SHOTS_002-004.md)
 
 ## Takes

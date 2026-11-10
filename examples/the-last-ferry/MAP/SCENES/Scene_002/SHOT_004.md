@@ -18,7 +18,7 @@
 | Element | Category | Role | Reason |
 |---|---|---|---|
 | @TOMAS | 01_CAST | hero | |
-| @FERRY_CABIN | 03_ENVIRONMENTS | background | Close-up: background is blur |
+| @FERRY_CABIN | 03_ENVIRONMENTS | hero | Scene plate, side A |
 
 ## Notes
 
@@ -33,6 +33,8 @@
 ## Prompts
 
 - [`GPT-IMAGE-2.5/01_CAST/Scene_002/@TOMAS.md`](../../../PROMPTS/GPT-IMAGE-2.5/01_CAST/Scene_002/@TOMAS.md)
+- [`GPT-IMAGE-2.5/03_ENVIRONMENTS/Scene_002/@FERRY_CABIN.md`](../../../PROMPTS/GPT-IMAGE-2.5/03_ENVIRONMENTS/Scene_002/@FERRY_CABIN.md)
+- [`SEEDREAM-5.0/03_ENVIRONMENTS/Scene_002/@FERRY_CABIN.md`](../../../PROMPTS/SEEDREAM-5.0/03_ENVIRONMENTS/Scene_002/@FERRY_CABIN.md)
 - [`VIDEO/Scene_002/SHOTS_002-004.md`](../../../PROMPTS/VIDEO/Scene_002/SHOTS_002-004.md)
 
 ## Takes

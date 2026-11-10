@@ -44,11 +44,11 @@
       "assertions": [
         {
           "kind": "says",
-          "what": "one plate for the scene's one camera side"
+          "what": "one plate for the scene's one camera side, used by the close-ups too"
         },
         {
           "kind": "says",
-          "text": "Close-up: background is blur",
+          "text": "Scene plate, side A",
           "grounded_in": "references/environments.md"
         },
         {

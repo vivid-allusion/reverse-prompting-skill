@@ -1,5 +1,8 @@
 # Changelog
 
+## 2026-11-10 (0.1.5)
+- Every shot has a plate behind it, close-ups too: a close-up uses its scene's plate for the side it faces, or gets its own from its still. The "background is blur, no plate" exemption is gone.
+
 ## 2026-11-10 (0.1.4)
 - A prop is held or used, not worn. The hero's car is a vehicle; street traffic is the plate.
 

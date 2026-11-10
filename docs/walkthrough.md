@@ -26,7 +26,7 @@ It writes `MAP/SCENES/Scene_001/` to `Scene_003/`, a `SCENE.md` in each and a `S
 
 ## 3. Scenes and shots
 
-`Scene_002/SCENE.md` sets the one light (overcast daylight through the windows, frame-left), the cast's state, and the one camera side. It records the calls: one plate, because shots 3 and 4 are close and show only blur behind; the tin box closed in shot 2 and open in shot 3, one canon with the state written in the shot.
+`Scene_002/SCENE.md` sets the one light (overcast daylight through the windows, frame-left), the cast's state, and the one camera side. It records the calls: one plate, because shots 3 and 4 are close and face the same side, so they use it too; the tin box closed in shot 2 and open in shot 3, one canon with the state written in the shot.
 
 Each `SHOT_NNN.md` gets its size, its hero, a literal inventory, what is out of frame by its effect, and notes on what changed from the still: the centred framing re-blocked, the push-in motion line to be rewritten. The coat has no prompt of its own, so its row carries the reason: "On Marta's canon sheet".
 

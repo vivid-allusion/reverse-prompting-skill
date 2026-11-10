@@ -12,7 +12,7 @@ A plate is the place with nobody in it, in the project's look, from where the sc
 
 - **One plate per scene per camera side.** A scene shot from two sides (the window wall and the door wall) needs two plates: `@FERRY_CABIN_A`, `@FERRY_CABIN_B`. A scene shot from one side needs one, however many stills it has.
 - **A plate belongs to one scene.** Two scenes in the same kind of place, or the same place at another time, get two plates. Never merge stills from different scenes into one plate.
-- **A close-up whose background is blur gets no plate.** Its shot table marks the place `background`, reason `Close-up: background is blur`.
+- **Every shot has a plate behind it, close-ups too.** Even an extreme close-up of hands needs the place behind them, or the video model invents one. A close-up uses its scene's plate for the side it faces; its shot table gives the reason `Scene plate, side A`. When no wider shot of the scene faces that side, or the scene is only close-ups, the close-up gets a plate of its own, built from its still.
 
 ## Built from the stills
 
@@ -31,7 +31,7 @@ FILM LOOK: [the project's style, lens and capture blocks, pasted]
 NEGATIVE: people, a figure, a silhouette, hands, [the still's AI look], [text and signs], …
 ```
 
-then `![ref](<still address>)` below the fence. The method for each block is the `cinematic-realism` skill; deep focus for a plate.
+then `![ref](<still address>)` below the fence. The method for each block is the `cinematic-realism` skill; deep focus for a plate built from a wide still; a close-up's own plate keeps the still's shallow focus, the background soft but readable.
 
 ## Which model
 

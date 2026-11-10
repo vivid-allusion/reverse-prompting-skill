@@ -13,7 +13,7 @@ links: [hero, elements, scripts, decisions, picks]
 | Element | Covered by |
 |---|---|
 | `hero` with a prompt | A file in any model folder under its category and its scene, or under `_CANON` |
-| `hero` without a prompt | Its Reason column in the shot table: on a canon sheet, real photos are the reference, inside another sheet |
+| `hero` without a prompt | Its Reason column in the shot table: on a canon sheet, real photos are the reference, inside another sheet, the scene's plate |
 | `background` | Nothing: left to the video prompt, listed as such |
 | A hero with neither | **Missing** |
 

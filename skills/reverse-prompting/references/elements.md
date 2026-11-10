@@ -38,12 +38,12 @@ A prop or vehicle is a separate asset the video model must place at the right sc
 | @MARTA | 01_CAST | hero | |
 | @COAT_MARTA | 04_COSTUMES | hero | On Marta's canon sheet |
 | @TIN_BOX | 02_PROPS | hero | |
-| @FERRY_CABIN | 03_ENVIRONMENTS | background | Close-up: background is blur |
+| @FERRY_CABIN | 03_ENVIRONMENTS | hero | Scene plate, side A |
 | @ROPE | 02_PROPS | background | |
 ```
 
 - **Role** is `hero` or `background`: [[hero]].
-- **Reason** is filled only when a hero element has no prompt of its own: on a canon sheet, real photos are the reference, inside another sheet. The coverage script takes the reason in place of a prompt: [[coverage]].
+- **Reason** is filled only when a hero element has no prompt of its own: on a canon sheet, real photos are the reference, inside another sheet, the scene's plate. The coverage script takes the reason in place of a prompt: [[coverage]].
 
 ## The ABOUT file
 

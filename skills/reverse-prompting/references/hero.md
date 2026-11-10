@@ -15,7 +15,7 @@ Ask: **who or what is this shot about?** That is the hero.
 | What a prominent character wears that the story turns on | Background clothing |
 | What a prominent character rides or drives, when the vehicle acts | Vehicles parked, moored or passing in the back: part of the plate |
 | | What the hero works on or walks on that stays put (a chopping block, a table, a gangplank): part of the plate |
-| The place, when the shot shows it | The place in a close-up whose background is blur |
+| The place, in every shot, close-ups too: [[environments]] | |
 | The group, when the shot is about the crowd | A crowd far back, dark and soft |
 
 Background is not lost: the video prompt names it in a few words and the model fills it in. A sheet for every candle, cup and chair in the back of a frame is wasted work, and it pulls the video model's attention away from the hero.
