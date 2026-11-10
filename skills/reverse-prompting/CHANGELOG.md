@@ -1,5 +1,8 @@
 # Changelog
 
+## 2026-11-10 (0.1.7)
+- A plate names the shot's hero in the removal, or the model keeps them. The person a shot is about gets a sheet of their own, even with others in frame.
+
 ## 2026-11-10 (0.1.6)
 - From a keyframe, asset prompts are short. A plate is an edit of the still: "remove all the people, keep the traffic", no re-description, no look or negative block. A prop or vehicle is lifted out of the still and shown on its own in natural overcast daylight; only what the still cannot show is written. The example's prompts are rewritten that way.
 

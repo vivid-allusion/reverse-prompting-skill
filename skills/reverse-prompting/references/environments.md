@@ -29,6 +29,7 @@ Provided image shows [the place, where, when]. This is a simple editing job to r
 then `![ref](<still address>)` below the fence. That is the whole prompt.
 
 - **Keep** names what a model might take out along with the people: the traffic, the chopping block, the boats, the loaves on the table. Name what matters, not every object.
+- **Name the hero in the removal.** "Remove all the people, and the glass the woman raises" mentions her only as the glass's owner, and the model keeps her and takes the glass. Write "remove the laughing woman in front with her glass, and everyone behind her".
 - **In a close-up** there are no whole people to remove, so name the parts: "remove the arms, the hands and the paddle. Keep the vat and the foaming mash."
 - **A prop the hero holds goes with them** (the axe, the bottle), and so does a vehicle that acts (the boat in its wake): each has its own asset, and the video prompt puts it back.
 - **Never describe the place again,** never add a format, look, light or negative block. A long text prompt makes the model build a new place from the words, and the plate no longer matches the still. The project's look belongs in the video prompt.

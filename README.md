@@ -1,7 +1,7 @@
 # Reverse Prompting Skill.md
 
 <p align="center">
-  <img src="https://img.shields.io/badge/skill-0.1.6-24292f?style=flat" alt="Skill version 0.1.6" />
+  <img src="https://img.shields.io/badge/skill-0.1.7-24292f?style=flat" alt="Skill version 0.1.7" />
   &nbsp;
   <img src="https://img.shields.io/badge/model-Seedance%202.5-24292f?style=flat" alt="Written for Seedance 2.5" />
   &nbsp;
@@ -47,7 +47,8 @@ It points to the skills it works beside rather than repeating them: `cinematic-r
 
 | Skill | Written for | Notes |
 |---|---|---|
-| 0.1.6 | Seedance 2.5 | Current. From a keyframe, asset prompts are short: a plate is an edit of the still that removes the people; a prop is lifted out of it. |
+| 0.1.7 | Seedance 2.5 | Current. A plate names the hero in the removal; the person a shot is about gets a sheet of their own. |
+| 0.1.6 | Seedance 2.5 | From a keyframe, asset prompts are short: a plate is an edit of the still that removes the people; a prop is lifted out of it. |
 | 0.1.5 | Seedance 2.5 | Every shot has a plate behind it, close-ups too. |
 | 0.1.4 | Seedance 2.5 | A prop is held or used, not worn. The hero's car is a vehicle; street traffic is the plate. |
 | 0.1.3 | Seedance 2.5 | Prop, vehicle or environment: a vehicle only when it acts; what stays put, moored or parked, and the vehicle a scene plays on, is the plate. The crane example is corrected. |
