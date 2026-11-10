@@ -1,14 +1,4 @@
 ```prompt
-A real photograph of ONE small 1950s coastal passenger ferry moored alone, side-on, 3:2, NO text.
-
-THE OBJECT: a short steel hull painted dark, a white wheelhouse with a row of windows, one funnel, an open rear
-deck with a rail, as the attached still shows it; rust streaks below the scuppers, a name board left blank.
-
-LIGHT — NATURAL OUTDOOR LIGHT, OVERCAST DAY: one soft source from above, NO sun, NO hard shadows; only a
-soft contact shadow under the object. Nothing else in frame.
-
-Photoreal, deep focus.
-
-NEGATIVE: people, a readable name, modern fittings, radar domes, a second ship, studio light, CGI.
+Provided image shows a harbour at dawn in the 1950s. Take the ferry and show it on its own, empty of people, afloat on calm grey water, in natural overcast daylight, nothing else in frame. Keep its exact shape, material and wear. Real photograph, 2.39:1.
 ```
 ![ref](https://example.com/the-last-ferry/stills/shot_001.png)

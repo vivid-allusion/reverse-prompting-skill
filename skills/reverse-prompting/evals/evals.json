@@ -70,7 +70,7 @@
         {
           "tree": "repo",
           "path": "examples/the-last-ferry/PROMPTS/SEEDREAM-5.0/03_ENVIRONMENTS/Scene_002/@FERRY_CABIN.md",
-          "needle": "Nobody in it"
+          "needle": "remove all the people"
         }
       ]
     },
@@ -260,6 +260,60 @@
         }
       ],
       "cross_module": false
+    },
+    {
+      "id": "keyframe-plate-is-an-edit",
+      "prompt": "Shot 1 is a wide of a city street at night: a man walks away, cars parked and driving. Write the environment plate prompt.",
+      "assertions": [
+        {
+          "kind": "says",
+          "text": "This is a simple editing job to remove all the people",
+          "grounded_in": "references/environments.md"
+        },
+        {
+          "kind": "says",
+          "what": "keep the traffic"
+        },
+        {
+          "kind": "not_says",
+          "what": "a re-description of the street block by block, a film-look block or a negative list"
+        }
+      ],
+      "cross_module": false,
+      "evidence": [
+        {
+          "tree": "repo",
+          "path": "examples/the-last-ferry/PROMPTS/SEEDREAM-5.0/03_ENVIRONMENTS/Scene_001/@HARBOUR.md",
+          "needle": "This is a simple editing job to remove all the people"
+        }
+      ]
+    },
+    {
+      "id": "keyframe-prop-is-lifted-out",
+      "prompt": "Write the prop prompt for the axe the woodcutter swings in shot 2.",
+      "assertions": [
+        {
+          "kind": "says",
+          "text": "Keep its exact shape, material and wear",
+          "grounded_in": "references/props-vehicles.md"
+        },
+        {
+          "kind": "says",
+          "what": "take the axe from the attached still and show it on its own in natural overcast daylight"
+        },
+        {
+          "kind": "not_says",
+          "what": "an itemised construction, a look block or a negative list"
+        }
+      ],
+      "cross_module": false,
+      "evidence": [
+        {
+          "tree": "repo",
+          "path": "examples/the-last-ferry/PROMPTS/SEEDREAM-5.0/02_PROPS/_CANON/@TIN_BOX.md",
+          "needle": "Keep its exact shape, material and wear"
+        }
+      ]
     }
   ]
 }

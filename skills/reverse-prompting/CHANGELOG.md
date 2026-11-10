@@ -1,5 +1,8 @@
 # Changelog
 
+## 2026-11-10 (0.1.6)
+- From a keyframe, asset prompts are short. A plate is an edit of the still: "remove all the people, keep the traffic", no re-description, no look or negative block. A prop or vehicle is lifted out of the still and shown on its own in natural overcast daylight; only what the still cannot show is written. The example's prompts are rewritten that way.
+
 ## 2026-11-10 (0.1.5)
 - Every shot has a plate behind it, close-ups too: a close-up uses its scene's plate for the side it faces, or gets its own from its still. The "background is blur, no plate" exemption is gone.
 

@@ -1,14 +1,4 @@
 ```prompt
-A real photograph of ONE small rectangular tin box, closed, lying flat, 3:2, NO text.
-
-THE OBJECT: a biscuit tin the size of a hand, rounded corners, a hinged lid, as the attached still shows it;
-faded blue paint worn through to bare tin at the corners and the lid's edge, a dent in one side.
-
-LIGHT — NATURAL OUTDOOR LIGHT, OVERCAST DAY: one soft source from above, NO sun, NO hard shadows; only a
-soft contact shadow under the object. Nothing else in frame.
-
-Photoreal, deep focus, the whole object sharp.
-
-NEGATIVE: people, hands, a label, readable text, a brand, new paint, shine, a second box, studio light, CGI.
+Provided image shows a scene from a film set in the 1950s. Take the tin box in the woman's hands and show it on its own, closed, lying on the ground, outdoors in natural overcast daylight, nothing else in frame. Keep its exact shape, material and wear. Real photograph, 2.39:1.
 ```
 ![ref](https://example.com/the-last-ferry/stills/shot_003.png)

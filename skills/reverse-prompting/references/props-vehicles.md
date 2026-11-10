@@ -22,7 +22,13 @@ Where a real object must be exact (a period container, a ritual object, a unifor
 
 ## The prompt
 
-A real photograph of the one object, alone in frame, its construction, material and wear itemised; the still attached as construction reference; natural overcast outdoor light. No grey concrete for props: that setting is for character and extras sheets. Text on the object blank or unreadable.
+The object is taken out of the still and put somewhere new, so the new setting is written; the object itself is not, because the still shows it.
+
+```prompt
+Provided image shows a scene from a film set in [the period]. Take the [object] [the man swings] and show it on its own, lying on the ground, outdoors in natural overcast daylight, nothing else in frame. Keep its exact shape, material and wear. Real photograph, [the project's frame].
+```
+
+then the still or stills that show it, `![ref](<still address>)` each. Add a sentence only for what the still cannot show: the object is hidden or soft ("a flat metal flask with a hinged cap"), or a decision the still does not hold ("no markings", "unlit"). No itemised construction, no look block, no negative list. No grey concrete for props: that setting is for character and extras sheets. A vehicle the same way, afloat or on a road, empty of people.
 
 ## Which model
 

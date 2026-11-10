@@ -27,7 +27,7 @@ A one-off still cannot be animated into a film. Its face drifts in the next shot
 
 ## What changes from the stills
 
-Content, order and shot size stay. What made the still read as a generated image goes: the default grade, the glow, the centred hero framing, decorative candles and lamps in frame, the slow push-in in the old motion line. The method for that is the `cinematic-realism` skill; this skill keeps the books.
+Content, order and shot size stay. The asset prompts do not rewrite the stills: a plate is the still with the people taken out, a prop is lifted out of it, and neither prompt describes again what the still already shows. What made the still read as a generated image (the default grade, the glow, the centred hero framing, the slow push-in in the old motion line) is dealt with in the video prompt. The method for that is the `cinematic-realism` skill; this skill keeps the books.
 
 ## What it does not do
 

@@ -203,5 +203,5 @@ def is_video(rel):
 
 def first_line(prompt, width=90):
     line = next((l for l in prompt.splitlines() if l.strip()), "")
-    line = re.sub(r"^(A STILL PHOTOGRAPH — |A real photograph of |STRICT CONSISTENCY task\. )", "", line)
+    line = re.sub(r"^(A STILL PHOTOGRAPH — |A real photograph of |STRICT CONSISTENCY task\. |Provided images? shows? )", "", line)
     return (line[:width].rstrip(" ,;:") + ("…" if len(line) > width else "")).replace("|", "/")

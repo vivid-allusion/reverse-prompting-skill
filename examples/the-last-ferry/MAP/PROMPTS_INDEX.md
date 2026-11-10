@@ -15,9 +15,9 @@ Every prompt file under `PROMPTS/`, by model folder and category. Rebuilt by `co
 
 | File | Refs | What it makes |
 |---|---|---|
-| `GPT-IMAGE-2.5/03_ENVIRONMENTS/Scene_001/@HARBOUR.md` | 1 | A STILL PHOTOGRAPH, a frame of the stone quay of a small Portuguese harbour at dawn, empty… |
-| `GPT-IMAGE-2.5/03_ENVIRONMENTS/Scene_002/@FERRY_CABIN.md` | 1 | A STILL PHOTOGRAPH, a frame of a 1950s ferry's passenger cabin, empty: a long varnished wo… |
-| `GPT-IMAGE-2.5/03_ENVIRONMENTS/Scene_003/@ISLAND_JETTY.md` | 1 | A STILL PHOTOGRAPH, a frame of a long timber jetty on an island at dusk, empty, the sea on… |
+| `GPT-IMAGE-2.5/03_ENVIRONMENTS/Scene_001/@HARBOUR.md` | 1 | the stone quay of a small Portuguese harbour at dawn in the 1950s. This is a simple editin… |
+| `GPT-IMAGE-2.5/03_ENVIRONMENTS/Scene_002/@FERRY_CABIN.md` | 1 | the passenger cabin of a 1950s ferry. This is a simple editing job to remove all the peopl… |
+| `GPT-IMAGE-2.5/03_ENVIRONMENTS/Scene_003/@ISLAND_JETTY.md` | 1 | a long timber jetty on an island at dusk in the 1950s. This is a simple editing job to rem… |
 
 ### 05_EXTRAS
 
@@ -31,21 +31,21 @@ Every prompt file under `PROMPTS/`, by model folder and category. Rebuilt by `co
 
 | File | Refs | What it makes |
 |---|---|---|
-| `SEEDREAM-5.0/02_PROPS/_CANON/@TIN_BOX.md` | 1 | ONE small rectangular tin box, closed, lying flat, 3:2, NO text. |
+| `SEEDREAM-5.0/02_PROPS/_CANON/@TIN_BOX.md` | 1 | a scene from a film set in the 1950s. Take the tin box in the woman's hands and show it on… |
 
 ### 03_ENVIRONMENTS
 
 | File | Refs | What it makes |
 |---|---|---|
-| `SEEDREAM-5.0/03_ENVIRONMENTS/Scene_001/@HARBOUR.md` | 1 | A STILL PHOTOGRAPH, a frame of the stone quay of a small Portuguese harbour at dawn, empty… |
-| `SEEDREAM-5.0/03_ENVIRONMENTS/Scene_002/@FERRY_CABIN.md` | 1 | A STILL PHOTOGRAPH, a frame of a 1950s ferry's passenger cabin, empty: a long varnished wo… |
-| `SEEDREAM-5.0/03_ENVIRONMENTS/Scene_003/@ISLAND_JETTY.md` | 1 | A STILL PHOTOGRAPH, a frame of a long timber jetty on an island at dusk, empty, the sea on… |
+| `SEEDREAM-5.0/03_ENVIRONMENTS/Scene_001/@HARBOUR.md` | 1 | the stone quay of a small Portuguese harbour at dawn in the 1950s. This is a simple editin… |
+| `SEEDREAM-5.0/03_ENVIRONMENTS/Scene_002/@FERRY_CABIN.md` | 1 | the passenger cabin of a 1950s ferry. This is a simple editing job to remove all the peopl… |
+| `SEEDREAM-5.0/03_ENVIRONMENTS/Scene_003/@ISLAND_JETTY.md` | 1 | a long timber jetty on an island at dusk in the 1950s. This is a simple editing job to rem… |
 
 ### 06_VEHICLES
 
 | File | Refs | What it makes |
 |---|---|---|
-| `SEEDREAM-5.0/06_VEHICLES/Scene_001/@LAST_FERRY.md` | 1 | ONE small 1950s coastal passenger ferry moored alone, side-on, 3:2, NO text. |
+| `SEEDREAM-5.0/06_VEHICLES/Scene_001/@LAST_FERRY.md` | 1 | a harbour at dawn in the 1950s. Take the ferry and show it on its own, empty of people, af… |
 
 ## VIDEO (3)
 

@@ -4,7 +4,7 @@ description: "Load before turning a film's animatic stills into the assets a vid
 type: workflow
 lifecycle: active
 metadata:
-  version: "0.1.5"
+  version: "0.1.6"
   written-for: "Seedance 2.5"
 ---
 
@@ -66,6 +66,7 @@ Notes never sit in `PROMPTS/`: every `.md` in a generator's input folder is a jo
 - **Nothing drops silently.** Every hero element has a prompt file or a stated reason in `MAP/COVERAGE.md`. Gaps lead every report. `references/coverage.md`.
 - **A plate belongs to one scene.** Never merge stills from different scenes into one plate or one extras sheet. Every shot has a plate behind it, close-ups too: a close-up uses its scene's plate for the side it faces, or gets its own. `references/environments.md`.
 - **Extras are per scene,** only the people seen together; one person alone gets a single sheet; each person carries the nationality of the scene's country. `references/extras.md`.
+- **From a keyframe, asset prompts are short.** The still holds the place and the objects; the prompt only says what to take out or take away. A plate is an edit: "remove all the people, keep the traffic". A prop is lifted out and shown on its own in natural light. `references/environments.md`, `references/props-vehicles.md`.
 - **Describe the frame, not the situation.** The method is the `cinematic-realism` skill.
 - **Prompt files follow the `helmer-md` skill.** `references/prompt-files.md`.
 
