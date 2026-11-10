@@ -1,5 +1,8 @@
 # Changelog
 
+## 2026-11-10 (0.1.8)
+- A person a shot is about is cast, named or not, with a single sheet made from the still in the short keyframe form. Extras are the people around and behind.
+
 ## 2026-11-10 (0.1.7)
 - A plate names the shot's hero in the removal, or the model keeps them. The person a shot is about gets a sheet of their own, even with others in frame.
 

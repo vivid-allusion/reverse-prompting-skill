@@ -12,7 +12,7 @@ An extras sheet is one group photograph of **the people seen together in one sce
 
 - **Only the people of that scene.** Never gather everyone of a kind (all dock workers, all patrons) from several scenes into one crew.
 - **One person alone** in a scene gets a single character sheet, not a group of one: [[characters]].
-- **The person the shot is about gets a sheet of their own,** even with others in frame: the laughing woman in the foreground of a bar is not one of a group with the soft drinkers behind her. They are background and go to the video prompt: [[hero]].
+- **The person the shot is about is cast, not an extra,** even with others in frame and no name: the laughing woman in the foreground of a bar gets a cast sheet of her own: [[characters]]. The soft drinkers behind her are background and go to the video prompt: [[hero]].
 - **A crowd too big for one sheet** (thirty or more) splits into sheets of about twelve: `@CROWD_A`, `@CROWD_B`.
 - **A crowd far back, dark and soft** is background and gets no sheet: [[hero]].
 
