@@ -21,7 +21,7 @@ A person a shot is about is cast, with or without a name: the woman laughing in 
 From a keyframe the sheet is made from the still, in the short form:
 
 ```prompt
-Provided image shows a scene from a film set in [place] in [period]. Make a character sheet of [who, as the image shows them: the Swedish woman laughing in front, in the sequined dress]: the same person, same face, hair and clothes. [Only when the image hides it: Her face is not in the image: about 30, ...] Three panels side by side: a full-body front view, standing straight, arms at the sides, looking at the camera with a neutral expression; a full-body back view; a close-up of the head and shoulders. Empty hands. Where the image does not show part of her, dress her to match. Photographed outdoors on an overcast day against a plain grey concrete wall and ground, soft natural daylight. Real photograph, [frame].
+Provided image shows a scene from a film set in [place] in [period]. Make a character sheet of [who, as the image shows them: the Swedish woman laughing in front, in the sequined dress]: the same person, same face, hair and clothes. [Only when the image hides it: Her face is not in the image: about 30, ...] Three panels side by side: a full-body front view, standing straight, arms at the sides, looking at the camera with a neutral expression; a full-body back view; a close-up of the head and shoulders. Empty hands. Where the image does not show part of her, dress her to match. Photographed outdoors on an overcast day against a plain grey concrete wall and ground, soft natural daylight. Real photograph.
 ```
 
 then `![ref](<still address>)`. The still holds the face and clothes; the prompt does not describe them again.

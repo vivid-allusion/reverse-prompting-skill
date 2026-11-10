@@ -4,7 +4,7 @@ description: "Load before turning a film's animatic stills into the assets a vid
 type: workflow
 lifecycle: active
 metadata:
-  version: "0.1.8"
+  version: "0.1.9"
   written-for: "Seedance 2.5"
 ---
 
@@ -69,6 +69,7 @@ Notes never sit in `PROMPTS/`: every `.md` in a generator's input folder is a jo
 - **Extras are per scene,** only the people seen together; one person alone gets a single sheet; each person carries the nationality of the scene's country. `references/extras.md`.
 - **From a keyframe, asset prompts are short.** The still holds the place and the objects; the prompt only says what to take out or take away. A plate is an edit: "remove all the people, keep the traffic". A prop is lifted out and shown on its own in natural light. `references/environments.md`, `references/props-vehicles.md`.
 - **Describe the frame, not the situation.** The method is the `cinematic-realism` skill.
+- **Never write the aspect ratio in a prompt: it is set in the generator's aspect setting.**
 - **Prompt files follow the `helmer-md` skill.** `references/prompt-files.md`.
 
 ## Where the rest is

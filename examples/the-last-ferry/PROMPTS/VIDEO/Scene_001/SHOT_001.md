@@ -9,7 +9,7 @@ crates are heavy and swing a little before they land.
 LIGHT: flat grey dawn light from the sea side, no sun.
 CAMERA: handheld, the operator standing on the quay and not travelling; a small human tremor. NO push-in, NO zoom.
 
-STYLE: a real photographed frame of 35mm ANAMORPHIC film, 2.39:1, a still from a quiet 1950s European
+STYLE: a real photographed frame of 35mm ANAMORPHIC film, a still from a quiet 1950s European
 drama shot like documentary. Live-action. NOT a render, NOT 3D, NOT digital-clean. NO text, NO watermark.
 CAPTURE: Kodak Double-X black-and-white negative, printed photochemically: fine grain, soft highlight roll-off,
 deep but readable shadows.

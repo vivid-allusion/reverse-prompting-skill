@@ -7,7 +7,7 @@ back half-turned, the tin box closed in both hands. The wind moves her coat's he
 LIGHT: a flat cold dusk sky low on the horizon, no sun disc.
 CAMERA: handheld, the operator standing at the landward end, not following. NO push-in, NO zoom.
 
-STYLE: a real photographed frame of 35mm ANAMORPHIC film, 2.39:1, a still from a quiet 1950s European
+STYLE: a real photographed frame of 35mm ANAMORPHIC film, a still from a quiet 1950s European
 drama shot like documentary. Live-action. NOT a render, NOT 3D, NOT digital-clean. NO text, NO watermark.
 CAPTURE: Kodak Double-X black-and-white negative, printed photochemically: fine grain, soft highlight roll-off,
 deep but readable shadows.

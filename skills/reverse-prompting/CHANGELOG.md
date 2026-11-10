@@ -1,5 +1,8 @@
 # Changelog
 
+## 2026-11-10 (0.1.9)
+- Never write the aspect ratio in a prompt; it is the generator's setting.
+
 ## 2026-11-10 (0.1.8)
 - A person a shot is about is cast, named or not, with a single sheet made from the still in the short keyframe form. Extras are the people around and behind.
 
