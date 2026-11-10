@@ -1,17 +1,4 @@
 ```prompt
-STRICT CONSISTENCY: the same real boy photographed three times in one session. A character sheet, three panels:
-LEFT full-body front, MIDDLE full-body back, RIGHT head-and-shoulders close-up.
-
-CHARACTER: a Portuguese boy of about ten, thin, dark hair cut short, a sunburnt nose. His clothing exactly as the
-attached still: a knitted school jumper, grey shorts, knee socks, scuffed sandals.
-
-SETTING — NATURAL OUTDOOR LIGHT ONLY, OVERCAST DAY: one even layer of white-grey cloud as a single soft
-source from above. NO sun, NO hard shadows. Flat grey concrete ground in front of a plain grey concrete back
-wall, like an empty concrete courtyard. Neutral white balance.
-
-Photoreal, a real photograph. Fine natural grain.
-
-NEGATIVE: studio light, seamless paper, softbox, sun, hard shadows, coloured background, modern clothes, trainers,
-posing, smiling at camera, text, watermark.
+Provided image shows a scene from a film set in a ferry off Portugal in the 1950s. Make a character sheet of the Portuguese boy of about ten in the school jumper: the same person, same face, hair and clothes. Three panels side by side: on the left, his costume on an invisible ghost mannequin, full body from the front, standing straight, arms at the sides, collar to shoes, with no head, no face and no hands; in the middle, the same ghost mannequin from the back; on the right, a close-up of his head and shoulders, looking at the camera with a neutral expression, the only panel with a face. Where the image does not show part of his clothes, complete them to match. Photographed outdoors on an overcast day against a plain grey concrete wall and ground, soft natural daylight. Real photograph.
 ```
 ![ref](https://example.com/the-last-ferry/stills/shot_004.png)

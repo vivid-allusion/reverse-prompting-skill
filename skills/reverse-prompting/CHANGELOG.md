@@ -1,5 +1,8 @@
 # Changelog
 
+## 2026-11-10 (0.1.10)
+- Cast sheets show the costume on a ghost mannequin front and back; the face is in the close-up only.
+
 ## 2026-11-10 (0.1.9)
 - Never write the aspect ratio in a prompt; it is the generator's setting.
 

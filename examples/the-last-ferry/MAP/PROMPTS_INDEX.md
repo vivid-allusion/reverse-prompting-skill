@@ -8,8 +8,8 @@ Every prompt file under `PROMPTS/`, by model folder and category. Rebuilt by `co
 
 | File | Refs | What it makes |
 |---|---|---|
-| `GPT-IMAGE-2.5/01_CAST/Scene_002/@TOMAS.md` | 1 | STRICT CONSISTENCY: the same real boy photographed three times in one session. A character… |
-| `GPT-IMAGE-2.5/01_CAST/_CANON/@MARTA.md` | 1 | STRICT CONSISTENCY: the same real woman photographed three times in one session. A charact… |
+| `GPT-IMAGE-2.5/01_CAST/Scene_002/@TOMAS.md` | 1 | a scene from a film set in a ferry off Portugal in the 1950s. Make a character sheet of th… |
+| `GPT-IMAGE-2.5/01_CAST/_CANON/@MARTA.md` | 1 | a scene from a film set in a ferry off Portugal in the 1950s. Make a character sheet of th… |
 
 ### 03_ENVIRONMENTS
 

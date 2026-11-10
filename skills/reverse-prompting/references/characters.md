@@ -21,10 +21,10 @@ A person a shot is about is cast, with or without a name: the woman laughing in 
 From a keyframe the sheet is made from the still, in the short form:
 
 ```prompt
-Provided image shows a scene from a film set in [place] in [period]. Make a character sheet of [who, as the image shows them: the Swedish woman laughing in front, in the sequined dress]: the same person, same face, hair and clothes. [Only when the image hides it: Her face is not in the image: about 30, ...] Three panels side by side: a full-body front view, standing straight, arms at the sides, looking at the camera with a neutral expression; a full-body back view; a close-up of the head and shoulders. Empty hands. Where the image does not show part of her, dress her to match. Photographed outdoors on an overcast day against a plain grey concrete wall and ground, soft natural daylight. Real photograph.
+Provided image shows a scene from a film set in [place] in [period]. Make a character sheet of [who, as the image shows them: the Swedish woman laughing in front, in the sequined dress]: the same person, same face, hair and clothes. [Only when the image hides it: Her face is not in the image: about 30, ...] Three panels side by side: on the left, her costume on an invisible ghost mannequin, full body from the front, standing straight, arms at the sides, collar to shoes, with no head, no face and no hands; in the middle, the same ghost mannequin from the back; on the right, a close-up of her head and shoulders, looking at the camera with a neutral expression, the only panel with a face. Where the image does not show part of her clothes, complete them to match. Photographed outdoors on an overcast day against a plain grey concrete wall and ground, soft natural daylight. Real photograph.
 ```
 
-then `![ref](<still address>)`. The still holds the face and clothes; the prompt does not describe them again.
+then `![ref](<still address>)`. The still holds the face and clothes; the prompt does not describe them again. The body panels are a ghost mannequin, so the face appears once, in the close-up: the `cast-character-sheet` skill's layout.
 
 ## Nationality
 
