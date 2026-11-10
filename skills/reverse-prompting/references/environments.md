@@ -16,7 +16,7 @@ A plate is the place with nobody in it, in the project's look, from where the sc
 
 ## Built from the stills
 
-Start from the scene's stills of that side; pick the one that shows most of the place. The plate keeps the architecture, the layout, the materials, the clutter that belongs to the place, and the time and weather. It drops the people, the still's look, and light sources placed as decoration.
+Start from the scene's stills of that side; pick the one that shows most of the place. The plate keeps the architecture, the layout, the materials, the clutter that belongs to the place, and the time and weather. It keeps what stays put where it stands: the chopping block, the table, the vat, the gangplank from the boat to the quay, moored ships, the crane, a parked lorry, the deck the camera stands on. Never put those in the plate's negative: [[elements]]. It drops the people, the still's look, and light sources placed as decoration.
 
 ## The prompt's shape
 

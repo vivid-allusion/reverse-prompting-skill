@@ -8,7 +8,7 @@ links: [hero, canon-and-state, models, prompt-files]
 
 ## Which ones
 
-Only hero props: what a prominent character handles, or what the shot is about. Vehicles a prominent character rides or drives, or that the shot is about: [[hero]].
+Only hero props: what a prominent character holds, uses or wears, or what the story needs seen. A vehicle only when it acts in the shot: it drives or sails through it, carries someone in or out, or the shot is about what it does: [[hero]]. Everything worked on or walked on that stays put, and every moored, parked or static vehicle, is part of the plate; so is a vehicle the scene plays on or in: [[elements]], [[environments]].
 
 ## One per object
 

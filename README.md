@@ -1,7 +1,7 @@
 # Reverse Prompting Skill.md
 
 <p align="center">
-  <img src="https://img.shields.io/badge/skill-0.1.2-24292f?style=flat" alt="Skill version 0.1.2" />
+  <img src="https://img.shields.io/badge/skill-0.1.3-24292f?style=flat" alt="Skill version 0.1.3" />
   &nbsp;
   <img src="https://img.shields.io/badge/model-Seedance%202.5-24292f?style=flat" alt="Written for Seedance 2.5" />
   &nbsp;
@@ -47,7 +47,8 @@ It points to the skills it works beside rather than repeating them: `cinematic-r
 
 | Skill | Written for | Notes |
 |---|---|---|
-| 0.1.2 | Seedance 2.5 | Current. The sheet skills are now `cast-character-sheet` and `extras-character-sheet`. |
+| 0.1.3 | Seedance 2.5 | Current. Prop, vehicle or environment: a vehicle only when it acts; what stays put, moored or parked, and the vehicle a scene plays on, is the plate. The crane example is corrected. |
+| 0.1.2 | Seedance 2.5 | The sheet skills are now `cast-character-sheet` and `extras-character-sheet`. |
 | 0.1.1 | Seedance 2.5 | Video prompts are written for Seedance 2.5; the folder stays `VIDEO/`. |
 | 0.1.0 | Seedance 2.5 | First version. Evals written, not yet graded in real-model sessions. |
 

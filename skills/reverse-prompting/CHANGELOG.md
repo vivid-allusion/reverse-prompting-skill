@@ -1,5 +1,8 @@
 # Changelog
 
+## 2026-11-10 (0.1.3)
+- Prop, vehicle or environment: a vehicle only when it acts; what stays put, moored or parked, and the vehicle a scene plays on, is the plate. The crane example is corrected.
+
 ## 2026-11-08 (0.1.2)
 - Points at the sheet skills under their new names, `cast-character-sheet` and `extras-character-sheet`; the eval evidence follows the new folder.
 
